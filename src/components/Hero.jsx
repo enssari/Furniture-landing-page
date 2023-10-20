@@ -98,14 +98,14 @@ export const Hero = () => {
             lg:text-[1.1rem] xl:text-[1.2rem]'>
                 <img src={logo} className='w-[5rem] lg:w-[5rem] xl:w-[7rem] h-[1.2rem] lg:h-[1.5rem] xl:h-[1.8rem] mr-5
                 2xl:w-[8rem]' alt="logo-m" />
-                <a href="#" className='hover:border-b-solid hover:border-b-[1.5px] hover:border-b-white
-                pb-2 duration-100 lg:hover:border-b-[2px] 2xl:hover:border-b-[3px] ease-linear'>home</a>
-                <a href="#" className='hover:border-b-solid hover:border-b-[1.5px] hover:border-b-white
-                pb-2 duration-100 lg:hover:border-b-[2px] 2xl:hover:border-b-[3px] ease-linear'>shop</a>
-                <a href="#" className='hover:border-b-solid hover:border-b-[1.5px] hover:border-b-white
-                pb-2 duration-100 lg:hover:border-b-[2px] 2xl:hover:border-b-[3px] ease-linear'>about</a>
-                <a href="#" className='hover:border-b-solid hover:border-b-[1.5px] hover:border-b-white
-                pb-2 duration-100 lg:hover:border-b-[2px] 2xl:hover:border-b-[3px] ease-linear'>contact</a>
+                <button className='hover:border-b-solid hover:border-b-[1.5px] hover:border-b-white
+                pb-2 duration-100 lg:hover:border-b-[2px] 2xl:hover:border-b-[3px] ease-linear'>home</button>
+                <button className='hover:border-b-solid hover:border-b-[1.5px] hover:border-b-white
+                pb-2 duration-100 lg:hover:border-b-[2px] 2xl:hover:border-b-[3px] ease-linear'>shop</button>
+                <button className='hover:border-b-solid hover:border-b-[1.5px] hover:border-b-white
+                pb-2 duration-100 lg:hover:border-b-[2px] 2xl:hover:border-b-[3px] ease-linear'>about</button>
+                <button className='hover:border-b-solid hover:border-b-[1.5px] hover:border-b-white
+                pb-2 duration-100 lg:hover:border-b-[2px] 2xl:hover:border-b-[3px] ease-linear'>contact</button>
             </ul>
         </nav>
         
