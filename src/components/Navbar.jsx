@@ -32,14 +32,14 @@ export const Navbar = () => {
                     onClick={() => {setMenuClicked(!menuClicked)}}
                     className='hover:cursor-pointer mt-[-.2rem] text-darkgray hover:text-verydark duration-150'
                     size={30}/>
-                    <a href="#" className='hover:border-b-solid hover:border-b-[1.5px] hover:border-b-black
-                    hover:text-darkgray duration-150'>home</a>
-                    <a href="#" className='hover:border-b-solid hover:border-b-[1.5px] hover:border-b-black
-                    hover:text-darkgray duration-150'>shop</a>
-                    <a href="#" className='hover:border-b-solid hover:border-b-[1.5px] hover:border-b-black
-                    hover:text-darkgray duration-150'>about</a>
-                    <a href="#" className='hover:border-b-solid hover:border-b-[1.5px] hover:border-b-black
-                    hover:text-darkgray duration-150'>contact</a>
+                    <button className='hover:border-b-solid hover:border-b-[1.5px] hover:border-b-black
+                    hover:text-darkgray duration-150'>home</button>
+                    <button className='hover:border-b-solid hover:border-b-[1.5px] hover:border-b-black
+                    hover:text-darkgray duration-150'>shop</button>
+                    <button className='hover:border-b-solid hover:border-b-[1.5px] hover:border-b-black
+                    hover:text-darkgray duration-150'>about</button>
+                    <button className='hover:border-b-solid hover:border-b-[1.5px] hover:border-b-black
+                    hover:text-darkgray duration-150'>contact</button>
                 </ul>
             </nav>
             </>
